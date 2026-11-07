@@ -1,0 +1,451 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "created_by": "admin",
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "marker_definitions": {},
+    "name": "MikroTik Module 1 - Fundamentals | Lab 2 - Troubleshooting Source NAT and Firewall Filter",
+    "project_id": "7844d376-e216-4e75-ac30-2b242aadfb3f",
+    "revision": 10,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": true,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": true,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "987d51dc-a9af-4a53-a777-892dea2f088d",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"450\" height=\"300\"><rect width=\"450\" height=\"300\" rx=\"12\" ry=\"12\" fill=\"#cfe2ff\" fill-opacity=\"0.35\" stroke=\"#1f5fbf\" stroke-width=\"3\"/></svg>",
+                "x": -525,
+                "y": -100,
+                "z": 0
+            },
+            {
+                "drawing_id": "865e6046-1fd2-46bf-baf7-19350d5bd350",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"450\" height=\"300\"><rect width=\"450\" height=\"300\" rx=\"12\" ry=\"12\" fill=\"#ffe0cc\" fill-opacity=\"0.35\" stroke=\"#c05000\" stroke-width=\"3\"/></svg>",
+                "x": 75,
+                "y": -100,
+                "z": 0
+            },
+            {
+                "drawing_id": "953d0987-e01e-4d32-8b9b-37cb4abab726",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"679\" height=\"28\"><text font-family=\"Noto Sans\" font-size=\"18\" font-weight=\"bold\" fill=\"#222222\" fill-opacity=\"1.0\">MikroTik Lab 2 - Troubleshooting (Source NAT and Firewall)</text></svg>",
+                "x": -340,
+                "y": -225,
+                "z": 2
+            },
+            {
+                "drawing_id": "72f67fca-94ad-43be-b09a-316ddb454094",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"313\" height=\"23\"><text font-family=\"Noto Sans\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f5fbf\" fill-opacity=\"1.0\">Inside - LAN 192.168.1.0/24 (private)</text></svg>",
+                "x": -510,
+                "y": -90,
+                "z": 2
+            },
+            {
+                "drawing_id": "e88d584c-7c55-4ccf-89d2-36ebc4f6215f",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"211\" height=\"23\"><text font-family=\"Noto Sans\" font-size=\"13\" font-weight=\"bold\" fill=\"#c05000\" fill-opacity=\"1.0\">Internet - 203.0.113.0/24</text></svg>",
+                "x": 90,
+                "y": -90,
+                "z": 2
+            },
+            {
+                "drawing_id": "ef7e864b-6459-417d-be2a-6147b3e63e31",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"133\" height=\"22\"><text font-family=\"Noto Sans\" font-size=\"12\" font-weight=\"bold\" fill=\"#7a3db8\" fill-opacity=\"1.0\">WAN 100.64.0.0/30</text></svg>",
+                "x": -65,
+                "y": -40,
+                "z": 2
+            },
+            {
+                "drawing_id": "aadc4e38-2b90-4759-98a2-1b7c54ba61ef",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"60\" height=\"29\"><text font-family=\"Noto Sans\" font-size=\"11.0\" fill=\"#1f5fbf\" fill-opacity=\"1.0\">PC1 .10</text></svg>",
+                "x": -500,
+                "y": 25,
+                "z": 2
+            },
+            {
+                "drawing_id": "630d69b7-6d13-4125-bf55-c139f88db8a9",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"229\" height=\"21\"><text font-family=\"Noto Sans\" font-size=\"11\" font-weight=\"normal\" fill=\"#1f5fbf\" fill-opacity=\"1.0\">R1 ether2 .1 | ether1 100.64.0.1</text></svg>",
+                "x": -320,
+                "y": 140,
+                "z": 2
+            },
+            {
+                "drawing_id": "f64beed4-a177-4d3d-b7c4-ea0874652cb5",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"186\" height=\"21\"><text font-family=\"Noto Sans\" font-size=\"11\" font-weight=\"normal\" fill=\"#1f5fbf\" fill-opacity=\"1.0\">srcnat masquerade + filter</text></svg>",
+                "x": -300,
+                "y": 160,
+                "z": 2
+            },
+            {
+                "drawing_id": "b53ff7c2-3829-4d44-b68c-8c265b45e5e5",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"236\" height=\"21\"><text font-family=\"Noto Sans\" font-size=\"11\" font-weight=\"normal\" fill=\"#c05000\" fill-opacity=\"1.0\">ISP ether1 100.64.0.2 | ether2 .1</text></svg>",
+                "x": 90,
+                "y": 140,
+                "z": 2
+            },
+            {
+                "drawing_id": "e3632a71-b984-4e28-909a-4d896a9d3ba9",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"59\" height=\"29\"><text font-family=\"Noto Sans\" font-size=\"11.0\" fill=\"#c05000\" fill-opacity=\"1.0\">SRV .10</text></svg>",
+                "x": 425,
+                "y": 25,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "6edb254a-167a-40ce-ae4b-90fc8267cb11",
+                "link_style": {},
+                "markers": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "ether1"
+                        },
+                        "node_id": "5ac72ceb-e171-470b-aef1-036041896565",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "ether1"
+                        },
+                        "node_id": "01e35af2-a9d2-4586-afef-6fc83bcf4137",
+                        "port_number": 0
+                    }
+                ],
+                "show_filters_icon": true,
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "7b590725-e774-4c93-ba8d-673ab0a65156",
+                "link_style": {},
+                "markers": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "ether2"
+                        },
+                        "node_id": "01e35af2-a9d2-4586-afef-6fc83bcf4137",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0"
+                        },
+                        "node_id": "44306086-4646-4ac0-bf79-b1f051913772",
+                        "port_number": 0
+                    }
+                ],
+                "show_filters_icon": true,
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "666a7285-58c3-4f7c-8205-6cd055e6cb5b",
+                "link_style": {},
+                "markers": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0"
+                        },
+                        "node_id": "30a9e707-abe9-44fb-8673-af824a2b3a2d",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "ether2"
+                        },
+                        "node_id": "5ac72ceb-e171-470b-aef1-036041896565",
+                        "port_number": 0
+                    }
+                ],
+                "show_filters_icon": true,
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "aux": null,
+                "aux_type": null,
+                "compute_id": "local",
+                "console": 5010,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 60,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: Ubuntu Sans;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "SRV",
+                    "x": 13,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "SRV",
+                "node_id": "44306086-4646-4ac0-bf79-b1f051913772",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "builtin": true,
+                    "usage": null
+                },
+                "symbol": ":/symbols/affinity/square/blue/client.svg",
+                "tags": [
+                    "device_type:gns3_vpcs_telnet"
+                ],
+                "template_id": "52136454-1f50-590a-94e4-816bd02d1062",
+                "width": 60,
+                "x": 450,
+                "y": 0,
+                "z": 1
+            },
+            {
+                "aux": null,
+                "aux_type": null,
+                "compute_id": "local",
+                "console": 5012,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 60,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: Ubuntu Sans;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "PC1",
+                    "x": 14,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "PC1",
+                "node_id": "30a9e707-abe9-44fb-8673-af824a2b3a2d",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "builtin": true,
+                    "usage": null
+                },
+                "symbol": ":/symbols/affinity/square/blue/client.svg",
+                "tags": [
+                    "device_type:gns3_vpcs_telnet"
+                ],
+                "template_id": "52136454-1f50-590a-94e4-816bd02d1062",
+                "width": 60,
+                "x": -450,
+                "y": 0,
+                "z": 1
+            },
+            {
+                "aux": null,
+                "aux_type": "none",
+                "compute_id": "local",
+                "console": 5014,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: Ubuntu Sans;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 21,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R1",
+                "node_id": "5ac72ceb-e171-470b-aef1-036041896565",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 8,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "builtin": false,
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "compute_id": "local",
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "create_config_disk": false,
+                    "created_at": "2026-10-24T10:39:19",
+                    "hda_disk_image": "hda_disk.qcow2",
+                    "hda_disk_image_backing_file": "chr-7.22.1.img",
+                    "hda_disk_image_md5sum": "cb23efa85c9a20fd002a2794a65a6a04",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_backing_file": null,
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_backing_file": null,
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_backing_file": null,
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "linked_clone": true,
+                    "mac_address": "0c:c7:2c:eb:00:00",
+                    "maxcpus": 1,
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 384,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "updated_at": "2026-10-24T10:39:22",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router_firewall.svg",
+                "tags": [],
+                "template_id": "9b23f5a9-7dd2-4403-98c2-dcb532c4705a",
+                "width": 66,
+                "x": -150,
+                "y": 0,
+                "z": 1
+            },
+            {
+                "aux": null,
+                "aux_type": "none",
+                "compute_id": "local",
+                "console": 5017,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: Ubuntu Sans;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ISP",
+                    "x": 19,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "ISP",
+                "node_id": "01e35af2-a9d2-4586-afef-6fc83bcf4137",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 8,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "builtin": false,
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "compute_id": "local",
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "create_config_disk": false,
+                    "created_at": "2026-10-24T10:39:19",
+                    "hda_disk_image": "hda_disk.qcow2",
+                    "hda_disk_image_backing_file": "chr-7.22.1.img",
+                    "hda_disk_image_md5sum": "cb23efa85c9a20fd002a2794a65a6a04",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_backing_file": null,
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_backing_file": null,
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_backing_file": null,
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "linked_clone": true,
+                    "mac_address": "0c:e3:5a:f2:00:00",
+                    "maxcpus": 1,
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 384,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "updated_at": "2026-10-24T10:39:22",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router_firewall.svg",
+                "tags": [],
+                "template_id": "9b23f5a9-7dd2-4403-98c2-dcb532c4705a",
+                "width": 66,
+                "x": 150,
+                "y": 0,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "3.1.0a5",
+    "zoom": 100
+}
