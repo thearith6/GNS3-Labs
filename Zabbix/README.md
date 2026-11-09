@@ -30,6 +30,8 @@ No credentials, bot tokens or chat IDs are stored in this repo.
 | :---: | :--- | :--- | :---: |
 | **1.1** | Troubleshooting Agent Availability (Firewall) | Passive checks (10050), `ss`, `nft list ruleset`, delete by handle | [View Lab](Module%201%20%E2%80%93%20Fundamentals/Lab%201%20%E2%80%93%20Troubleshooting%20Agent%20Availability%20%28Firewall%29/README.md) |
 | **1.2** | Trigger and Telegram Alert | `nodata()`, media type, user media, trigger action, Action log | [View Lab](Module%201%20%E2%80%93%20Fundamentals/Lab%202%20%E2%80%93%20Trigger%20and%20Telegram%20Alert/README.md) |
+| **1.3** | Trigger Fires but Host Is Green (DenyKey) | `DenyKey`, include files, `zabbix_agent2 -t`, item vs. interface availability | [View Lab](Module%201%20%E2%80%93%20Fundamentals/Lab%203%20%E2%80%93%20Trigger%20Fires%20but%20Host%20Is%20Green%20%28DenyKey%29/README.md) |
+| **1.4** | Agent Listening Only on Localhost (ListenIP) | `ListenIP`, `ss -tlnp`, `nc -zv` / `/dev/tcp` port tests, alert severity filter | [View Lab](Module%201%20%E2%80%93%20Fundamentals/Lab%204%20%E2%80%93%20Agent%20Listening%20Only%20on%20Localhost%20%28ListenIP%29/README.md) |
 
 ---
 
