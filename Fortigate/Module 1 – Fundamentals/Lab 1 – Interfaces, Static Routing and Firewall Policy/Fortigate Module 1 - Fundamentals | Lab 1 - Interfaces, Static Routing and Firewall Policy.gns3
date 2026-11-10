@@ -337,7 +337,7 @@
                     "tpm": false,
                     "uefi": false,
                     "updated_at": "2026-09-18T08:25:54",
-                    "usage": "Default username is admin, no password is set.\n\n- FortiGate version 7.0.0 and above require 2GB RAM.\n\n- FortiGate versions higher than 7.2.0 trial license is VERY restrictive, not recommended for use."
+                    "usage": ""
                 },
                 "symbol": "fortinet.svg",
                 "tags": [],
