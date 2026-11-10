@@ -380,7 +380,7 @@
                     "tpm": false,
                     "uefi": false,
                     "updated_at": "2026-11-05T11:46:31",
-                    "usage": "FortiOS 8.0.1, evaluation license activated, blank config. Login admin (password is the one you set). All nodes share one UUID/license - run ONE at a time. Never commit this image."
+                    "usage": ""
                 },
                 "symbol": "fortinet.svg",
                 "tags": [],
