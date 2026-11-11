@@ -17,7 +17,7 @@ This repository collects my GNS3 practice labs. Every lab has a topology, device
 | **CCNA** | CCNA and CCNP-level labs: switching, OSPF, IP services, L2 security, IPv6, BGP | 36 labs | [CCNA](CCNA/README.md) |
 | **Fortigate** | FortiGate (FortiOS) firewall, NAT, VPN and security profiles | In progress | [Fortigate](Fortigate/README.md) |
 | **MikroTik** | MikroTik RouterOS (CHR): IP addressing, static routing, NAT, firewall | In progress | [MikroTik](MikroTik/README.md) |
-| **Zabbix** | Zabbix 7.0 monitoring: agent troubleshooting, triggers, Telegram alerts | In progress | [Zabbix](Zabbix/README.md) |
+| **Zabbix** | Zabbix 7.0 monitoring: agent troubleshooting, triggers, Telegram alerts, SNMP | In progress | [Zabbix](Zabbix/README.md) |
 
 More collections will be added as separate folders.
 
@@ -28,7 +28,7 @@ GNS3-Labs/
 ├── CCNA/          Completed CCNA / CCNP labs (see CCNA/README.md)
 ├── Fortigate/     FortiGate labs and lab template
 ├── MikroTik/      MikroTik RouterOS (CHR) labs
-├── Zabbix/        Zabbix monitoring labs (Proxmox LXC)
+├── Zabbix/        Zabbix monitoring labs (Proxmox LXC, GNS3 SNMP devices)
 └── README.md
 ```
 
