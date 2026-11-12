@@ -39,10 +39,11 @@ No credentials, bot tokens or chat IDs are stored in this repo.
 | Lab | Title | Key Technologies | Documentation |
 | :---: | :--- | :--- | :---: |
 | **2.1** | FortiGate SNMP v2c Host and SNMP-Only Fault | `snmpwalk`, FortiOS SNMP community, `diagnose sniffer packet`, static route, libvirt iptables | [View Lab](Module%202%20%E2%80%93%20SNMP%20Monitoring/Lab%201%20%E2%80%93%20FortiGate%20SNMP%20v2c%20Host/README.md) |
+| **2.2** | Interface Link Down (FortiGate port2) | Link down trigger, admin vs. oper status, LLD admin-status filter, problem acknowledge/update, `get system interface physical`, IOSv peer | [View Lab](Module%202%20%E2%80%93%20SNMP%20Monitoring/Lab%202%20%E2%80%93%20Interface%20Link%20Down%20%28FortiGate%20port2%29/README.md) |
 
 ---
 
 ## Planned
 
-- **SNMP monitoring** of a Cisco IOSv router
+- **SNMP monitoring** of a Cisco IOSv router (R1 is already in Lab 2.2)
 - **Dashboard** for the lab hosts
